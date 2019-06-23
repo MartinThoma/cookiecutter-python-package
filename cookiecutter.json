@@ -1,0 +1,10 @@
+{
+  "full_name": "Martin Thoma",
+  "email": "info@martin-thoma.de",
+  "github_username": "MartinThoma",
+  "project_name": "Awesome Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Awesome Project lets you feel the pure awesomeness of awesome.",
+  "version": "0.1.0",
+  "open_source_license": ["MIT license", "BSD license", "Not open source"]
+}
