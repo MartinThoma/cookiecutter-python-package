@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""The setup script."""
+
 # core modules
 from setuptools import find_packages
 from setuptools import setup
@@ -50,7 +55,7 @@ config = {
                     'Programming Language :: Python :: 2.7',
                     'Programming Language :: Python :: 3.6',
                     ],
-    'zip_safe': True,
+    'zip_safe': False,
     'test_suite': 'setup.my_test_suite',
 }
 
