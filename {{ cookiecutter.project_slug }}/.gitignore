@@ -104,4 +104,5 @@ ENV/
 # pytest
 .pytest_cache/
 
+mypy-report/
 tests/reports/
