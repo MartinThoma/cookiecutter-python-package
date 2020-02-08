@@ -4,3 +4,8 @@ pytest-flake8
 pytest-mccabe
 pytest-black
 pydocstyle
+tox
+
+# coverage is a transitive requirement, introduced by pytest-cov
+# Due to https://github.com/nedbat/coveragepy/issues/716 it is fixed here
+coverage<5.0.0

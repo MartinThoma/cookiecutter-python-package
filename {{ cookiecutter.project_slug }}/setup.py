@@ -3,12 +3,7 @@
 
 """The setup script."""
 
-# core modules
+# Third party modules
 from setuptools import setup
 
-setup(
-    entry_points={
-        "console_scripts": ["clana={{ cookiecutter.project_slug }}.cli:entry_point"]
-    },
-    install_requires=["click"],
-)
+setup(install_requires=["click"])
