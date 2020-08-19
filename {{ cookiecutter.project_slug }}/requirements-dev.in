@@ -1,0 +1,7 @@
+pip-tools
+pytest
+pytest-cov
+pytest-mccabe
+pytest-timeout
+twine
+wheel
