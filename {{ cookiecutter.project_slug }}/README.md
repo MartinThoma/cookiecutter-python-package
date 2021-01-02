@@ -18,7 +18,7 @@ $ pipenv --python 3.8
 $ pipenv install -r requirements.txt
 
 # Import the dev requirements
-$ pipenv install --dev --pre -r requirements-dev.txt
+$ pipenv install --dev --pre -r requirements/dev.txt
 
 # Make sure the repository stays that nice
 $ pre-commit install

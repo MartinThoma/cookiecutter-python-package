@@ -1,3 +1,4 @@
+-r ../requirements.txt
 black
 flake8
 flake8-assert-msg
@@ -12,11 +13,8 @@ flake8-raise
 flake8-string-format
 flake8_implicit_str_concat
 mypy
-pip-tools
 pydocstyle
 pytest
 pytest-cov
 pytest-mccabe
 pytest-timeout
-twine
-wheel
