@@ -17,7 +17,7 @@ attrs==20.3.0
     #   pytest
 black==20.8b1
     # via -r ci.txt
-bleach==3.2.1
+bleach==3.3.0
     # via readme-renderer
 certifi==2020.11.8
     # via requests
