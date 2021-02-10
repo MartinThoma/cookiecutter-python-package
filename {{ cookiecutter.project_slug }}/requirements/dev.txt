@@ -36,7 +36,7 @@ coverage==5.3.1
     # via
     #   -r ci.txt
     #   pytest-cov
-cryptography==3.2.1
+cryptography==3.3.2
     # via secretstorage
 docutils==0.16
     # via readme-renderer
